@@ -55,7 +55,7 @@ public class HudConfigScreen extends Screen {
     }
 
     @Override
-    public boolean mouseReleased(double mouseX, double mouseY, int button) {
+public boolean mouseReleased(double mouseX, double mouseY, int button) {
         if (button == 0) { dragging = false; }
         return super.mouseReleased(mouseX, mouseY, button);
     }
