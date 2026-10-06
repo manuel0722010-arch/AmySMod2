@@ -14,7 +14,6 @@ public class HudConfigScreen extends Screen {
     }
 
     @Override
-    for (render...) // Estructura estándar de renderizado de pantalla
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
         context.fillGradient(0, 0, this.width, this.height, 0xC0101010, 0xD0101010);
         context.drawCenteredTextWithShadow(this.textRenderer, "§b[ AmyS Mod ] - Arrastra el HUD. ESC para guardar.", this.width / 2, 20, 0xFFFFFF);
